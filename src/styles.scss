@@ -1,0 +1,464 @@
+
+.forms{
+    display: flex;
+    padding: 104px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 10px 0px 0px 10px;
+    background: var(--gray-600, #FAFAFA);
+}
+.sign-in--form{
+    width: 100%;
+    max-width: 428px;
+    min-width: 343px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 40px 40px 60px 0px rgba(0, 0, 0, 0.10);
+}
+.sign-in--inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+.input_field{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    flex-shrink: 1;
+    flex-grow: 1;
+    align-self: stretch;
+    color: var(--dark-purple-100, #130F1C);
+    font-family: Roboto Condensed;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+}
+input[type="password"],
+input[type="text"],
+input[type="email"],
+input[type="date"],
+select[id="payment"]{
+    display: flex;
+    padding: 12px 14px 12px 12px;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+    border:none;
+    border-radius: 5px;
+    background: var(--gray-600, #FAFAFA);
+}
+.switch{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+.sign-in--button{
+    display: flex;
+    padding: 12px 48px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border:none;
+    border-radius: 5px;
+    background: var(--purple-100, #651FFF);
+    color: var(--White, #FFF);
+    font-family: Roboto Condensed;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+}
+.sign-in--button:hover{
+    background: goldenrod;
+    box-shadow: 0 0 5px gold,
+    0 0 25px gold;
+    color:black;
+}
+.link{
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 10px;
+    color: var(--purple-100, #651FFF);
+    font-family: Roboto Condensed;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    text-decoration-line: underline;
+}
+.link:hover{
+    color:goldenrod;   
+    text-shadow: 0 0 10px gold;
+}
+.line{
+    height: 2px;
+    align-self: stretch;
+    border-radius: 10px;
+    background: var(--gray-400, #ECECEE);
+}
+.connect-with--wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+}
+.connect-with{
+    color: var(--gray-50, #5A5761);
+    text-align: center;
+    font-family: Roboto Condensed;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.button-wrapper{
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+.google, .facebook{
+    display: inline-block;
+    padding: 12px 48px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    flex: 1 0 0;
+    border-radius: 5px;
+    border: 1px solid var(--gray-400, #ECECEE);
+    background: var(--White, #FFF);
+}
+.google:hover, .facebook:hover{
+    background: goldenrod;
+    box-shadow: 0 0 5px gold,
+    0 0 25px gold;
+    color:black;
+}
+
+.contact-us--form{
+    display: flex;
+    width: 100%;
+    max-width: 665px;
+    min-width: 343px;
+    padding: 32px;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 32px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 40px 40px 60px 0px rgba(0, 0, 0, 0.10);
+}
+.headline{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    color: var(--dark-purple-100, #130F1C);
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; 
+    letter-spacing: -0.64px;
+}
+.contact-us--frame{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 16px;
+    align-self: stretch;
+}
+.contact-us--inputs{
+    width: 100%;
+    display: flex;
+    align-items: stretch;
+    gap: 16px;
+    flex: 1 0 0;
+}
+.subscribe{
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--gray-100, #484848);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+}
+
+// input[type="checkbox"]{
+//     opacity: 0;
+//     width: 0;
+//     margin: 0;
+// }
+// label[for="check2"]{
+//     display: inline-block;
+//     margin-bottom: 10px;
+//     padding-left: 25px;
+//     background: url("/assets/images/Check.png") no-repeat;
+//     background-position: 0 -98px;
+// }
+.message-area{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    color: var(--dark-purple-100, #130F1C);
+    font-family: Roboto Condensed;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; 
+}
+.text-area{
+    display: flex;
+    height: 152px;
+    padding: 8px 14px 8px 12px;
+    align-items: flex-start;
+    gap: 10px; 
+    border-radius: 5px;
+    background: var(--gray-500, #F3F3F5);
+    color: var(--gray-200, #BAB9BD);
+    font-family: Roboto Condensed;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+.submit-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+}
+.contact-us--submit{
+    padding: 12px 48px; 
+    gap: 10px;
+    border-radius: 5px;
+    background: var(--purple-100, #651FFF);
+    color: var(--White, #FFF);
+    font-family: Roboto Condensed;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.contact-us--submit:hover{
+    background: goldenrod;
+    box-shadow: 0 0 5px gold,
+    0 0 25px gold;
+    color:black;
+}
+.contact-us--container{
+    display: flex;
+    flex: 1;
+}
+.contact-info{
+    display: flex;
+    max-width: 216px;
+    padding: 46px 16px 32px 16px;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    border-radius: 10px 0px 0px 10px;
+    background: var(--purple-100, #651FFF);
+    box-shadow: 40px 40px 60px 0px rgba(0, 0, 0, 0.10);
+    flex: 1;
+}
+.contact-info--headline{
+    display: flex;
+    align-items: flex-start;
+    align-self: stretch;
+    color: var(--White, #FFF);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    letter-spacing: -0.32px;
+}
+.contact-info--text{
+    display: flex;
+    align-items: flex-start;
+    align-self: stretch;
+    color: var(--White, #FFF);
+    font-family: Roboto Condensed;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.contact-info--container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+.phone, 
+.email{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.phone-number,
+.e-mail-address{
+    color: #FFF;
+    font-family: Roboto Condensed;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.contact-form{
+    display: flex;
+    max-width: 449px;
+    padding: 32px 16px 32px 32px;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 32px;
+    border-radius: 0px 10px 10px 0px;
+    background: #FFF;
+    box-shadow: 40px 40px 60px 0px rgba(0, 0, 0, 0.10);
+    flex: 1;
+}
+.text-area--label{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    align-self: stretch;
+    color: var(--dark-purple-100, #130F1C);
+    font-family: Roboto Condensed;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+}
+
+.checkout-form{
+    display: flex;
+    width: 665px;
+    padding: 32px;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 32px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 40px 40px 60px 0px rgba(0, 0, 0, 0.10);
+}
+.checkout-info{
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+    flex-wrap:wrap;
+}
+.your-order{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    flex: 1 0 0;
+}
+.check-out--headlines{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+    color: var(--dark-purple-100, #130F1C);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+    letter-spacing: -0.4px;
+}
+.order-details--side{
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+.white-photo{
+    width: 40px;
+    height: 40px;
+}
+.order-details{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+}
+.bigger-text{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    color: var(--dark-purple-100, #130F1C);
+    font-family: Roboto Condensed;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+}
+.small-text{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    color: var(--gray-50, #5A5761);
+    font-family: Roboto Condensed;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+}
+.delivery-details{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    flex: 1 0 0;
+}
+.delivery-details--side{
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+}
+.delivery-data{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+}
+.payment-method{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px; 
+}
+.payment-heading{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    color: var(--dark-purple-100, #130F1C);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+    letter-spacing: -0.4px;
+}
+.payment-method--inputs{
+    display: flex; 
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+}

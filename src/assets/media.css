@@ -1,0 +1,19 @@
+@media screen and (max-width: 767px) {
+    .contact-info {
+        display: none;
+    }
+
+    .contact-form {
+        flex: 1;
+    }
+    .submit-button {
+        align-self: stretch;
+    }
+    .contact-us--inputs {
+        flex-wrap: wrap;
+    }
+    .submit-wrapper{
+        align-self: stretch;
+    }
+    
+}
