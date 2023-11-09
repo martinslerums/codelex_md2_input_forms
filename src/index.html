@@ -87,10 +87,10 @@
                     <input type="text" name="name" id="fourth" placeholder="Placeholder Text">
                 </div>
             </div>
-            <div class="subscribe">
-                <input type="checkbox" id="check2">
-                <label for="check2">Subscribe to News</label>
-            </div>
+            <div class="custom-checkbox">
+            <input type="checkbox" id="check2" class="subscribecheck">
+            <label for="check2">Subscribe to News</label>
+        </div>
             <div class="message-area">
                 <label for="message">Message</label>
                 <input type="text" class="text-area" id="message"> 
@@ -217,7 +217,7 @@
                 <h4>Payment Method</h4>
             </div>
             <div class="payment-method--inputs">
-                <div class="input_field">
+                <div class="input_field payment-method">
                     <label for="payment">Payment Method</label>
                     <select id="payment" name="cars" required>
                         <option value="card">Credit and debit card</option>
@@ -226,14 +226,16 @@
                         <option value="bank-transfer">Bank transfer.</option>
                       </select>                    
                 </div>
-                <div class="input_field">
-                    <label for="payment2">Input Label</label>
-                    <input type="text" name="name" id="payment2" placeholder="Placeholder Text">
-                </div>
-                <div class="input_field">
-                    <label for="payment3">Input Label</label>
-                    <input type="text" name="name" id="payment3" placeholder="Placeholder Text">
-                </div>
+                <div class="right-side_wrapper">
+                    <div class="input_field payment">
+                        <label for="payment2">Input Label</label>
+                        <input type="text" name="name" id="payment2" placeholder="Placeholder Text">
+                    </div>
+                    <div class="input_field payment">
+                        <label for="payment3">Input Label</label>
+                        <input type="text" name="name" id="payment3" placeholder="Placeholder Text">
+                    </div>
+                </div>  
             </div>
         </div>
         <div class="submit-wrapper">
